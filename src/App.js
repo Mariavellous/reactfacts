@@ -6,14 +6,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="container">
         <Navbar />
         <Main />
-        <p>
-          Hello Melanie Alzugray!
-        </p>
-      </header>
     </div>
   );
 }
