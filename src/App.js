@@ -1,5 +1,6 @@
 import React from "react"
 import Navbar from "./components/Navbar"
+import Main from "./components/Main"
 import './App.css';
 
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Navbar />
+        <Main />
         <p>
           Hello Melanie Alzugray!
         </p>
